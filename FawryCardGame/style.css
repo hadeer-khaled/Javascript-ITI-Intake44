@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px auto;
+    width: fit-content;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: fit-content;
+    margin-top: 20px;
+}
+p{
+    color: red;
+    font-size: 13px;
+    display: none;
+}
+
+button{
+    width: fit-content;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 10px 13px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    outline: none;
+    cursor: pointer;
+}
+button:active{
+ box-shadow: 0px 0px 7px red;
+}
+
+img{
+    width: 200px;
+    
+}
+
+.blur{
+    filter: blur(10px);
+
+}
